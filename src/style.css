@@ -2,4 +2,25 @@
 
 body{
     background: white;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 150px;
 }
+h1{
+    font-size: medium;
+
+}
+
+p{
+    font-size: large;
+    color: red;
+  
+}
+
+p2{
+    color: teal;
+
+}
+
+
+
