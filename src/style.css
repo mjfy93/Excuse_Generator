@@ -1,26 +1,28 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
-body{
-    background: white;
-    text-align: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    padding: 150px;
-}
-h1{
-    font-size: medium;
-
+img {
+  width: 100%;
+  height: auto;
+  opacity: 70%;
 }
 
-p{
-    font-size: large;
-    color: red;
-  
-}
-
-p2{
-    color: teal;
+body {
+  height: 60%;
+  font-family: 'serif';
 
 }
 
-
-
+.centered {
+  position: absolute;
+  top: 40%;
+  left: 15%;
+  right: 15%;
+  color: black;
+  font-size: large;
+  font-weight: 900;
+}
+.card-text{
+  font-size: x-small;
+  font-style: italic;
+  text-align: center;
+}

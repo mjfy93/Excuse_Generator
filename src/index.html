@@ -1,25 +1,39 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" href="./assets/img/4geeks.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-   
-    <title>Excuse Generator.js</title>
 
-    <!-- Fontawesome is our recomended library for icons -->
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
-      integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
-      crossorigin="anonymous"
-    />
-  
-  </head>
-  <body>
-    <h1>You will not believe what happened to me!</h1>
-    <p id = "excuse">My dog ate my homework</p>
-    <p2> I'll make it up to you, I promise.</p2>
-    <script type="module" src="/app.js"></script>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" href="./assets/img/4geeks.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Excuse Generator.js</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="d-flex justify-content-center m-1 p-2">
+  <div class="card text-start mb-3 p-2 bg-secondary-subtle" style="width: 18rem;">
+    <div>
+      <h5 class="m-1">Excuse Generator: </h5>
+      <p>For those times when you need a reason to say no.</p>
+    </div>
+    <div class="container">
+      <img
+        src="https://images.unsplash.com/photo-1601370552761-d129028bd833?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDIyfHx8ZW58MHx8fHx8"
+        class="img-fluid " alt="Clouds">
+      <div class="centered">
+        <p id="excuse">My dog ate my homework</p>
+      </div>
+    </div>
+    <div class="card-body">
+      <p class="card-text">Use this powerful tool wisely. If the excuse shown on screen doesn't apply
+        to you, reload the window, you'll get a new one.</p>
+    </div>
+  </div>
+</body>
+<!--scripts-->
+<script type="module" src="app.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.min.js"
+  integrity="sha384-7qAoOXltbVP82dhxHAUje59V5r2YsVfBafyUDxEdApLPmcdhBPg1DKg1ERo0BZlK" crossorigin="anonymous"></script>
+
 </html>
